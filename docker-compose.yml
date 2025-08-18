@@ -1,0 +1,30 @@
+services:
+  comfyui:
+    build: .
+    ports:
+      - "8188:8188"
+    volumes:
+      - ./config:/app/config:ro
+      - comfyui_models:/app/ComfyUI/models
+      - comfyui_output:/app/ComfyUI/output
+    environment:
+      - HF_HUB_ENABLE_HF_TRANSFER=1
+      - HF_TOKEN=${HF_TOKEN:-}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8188"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  comfyui_models:
+  comfyui_output:

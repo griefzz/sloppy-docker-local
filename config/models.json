@@ -1,0 +1,36 @@
+{
+  "models": [
+    {
+      "repo_id": "mit-han-lab/nunchaku-flux.1-kontext-dev",
+      "filename": "svdq-int4_r32-flux.1-kontext-dev.safetensors",
+      "type": "diffusion_models"
+    },
+    {
+      "repo_id": "nunchaku-tech/nunchaku-flux.1-krea-dev",
+      "filename": "svdq-int4_r32-flux.1-krea-dev.safetensors",
+      "type": "diffusion_models"
+    },
+    {
+      "repo_id": "comfyanonymous/flux_text_encoders",
+      "filename": "clip_l.safetensors",
+      "type": "text_encoders"
+    },
+    {
+      "repo_id": "comfyanonymous/flux_text_encoders",
+      "filename": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+      "type": "text_encoders"
+    },
+    {
+      "repo_id": "Comfy-Org/Lumina_Image_2.0_Repackaged",
+      "filename": "ae.safetensors",
+      "subfolder": "split_files/vae",
+      "type": "vae"
+    },
+    {
+      "repo_id": "alimama-creative/FLUX.1-Turbo-Alpha",
+      "filename": "diffusion_pytorch_model.safetensors",
+      "rename_to": "FLUX.1-Turbo-Alpha.safetensors",
+      "type": "loras"
+    }
+  ]
+}

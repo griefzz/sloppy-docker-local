@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {
+      "name": "ComfyUI Manager",
+      "type": "git",
+      "repo_url": "https://github.com/ltdrdata/ComfyUI-Manager.git"
+    },
+    {
+      "name": "ControlNet Preprocessors",
+      "type": "git", 
+      "repo_url": "https://github.com/Fannovel16/comfyui_controlnet_aux.git"
+    },
+    {
+      "name": "Impact Pack",
+      "type": "git",
+      "repo_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack.git"
+    },
+    {
+      "name": "Ultimate SD Upscale",
+      "type": "git",
+      "repo_url": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
+    }
+  ]
+}

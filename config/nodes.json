@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "name": "ComfyUI Manager",
+      "type": "git",
+      "repo_url": "https://github.com/ltdrdata/ComfyUI-Manager.git"
+    },
+    {
+      "name": "ComfyUI-GGUF",
+      "type": "git",
+      "repo_url": "https://github.com/city96/ComfyUI-GGUF.git"
+    },
+    {
+      "name": "ComfyUI-nunchaku",
+      "type": "git",
+      "repo_url": "https://github.com/nunchaku-tech/ComfyUI-nunchaku"
+    },
+    {
+      "name": "ComfyUI-WanVideoWrapper",
+      "type": "git",
+      "repo_url": "https://github.com/kijai/ComfyUI-WanVideoWrapper"
+    },
+    {
+      "name": "ComfyUI-KJNodes",
+      "type": "git",
+      "repo_url": "https://github.com/kijai/ComfyUI-KJNodes"
+    },
+    {
+      "name": "ComfyUI-Chibi-Node",
+      "type": "git",
+      "repo_url": "https://github.com/chibiace/ComfyUI-Chibi-Nodes"
+    },
+    {
+      "name": "ComfyUI-Florence2",
+      "type": "git",
+      "repo_url": "https://github.com/kijai/ComfyUI-Florence2"
+    },
+    {
+      "name": "ComfyUI-Custom-Scripts",
+      "type": "git",
+      "repo_url": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    }
+  ]
+}
