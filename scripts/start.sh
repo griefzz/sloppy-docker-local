@@ -30,3 +30,5 @@ fi
 echo "🎨 Starting ComfyUI on port 8188..."
 cd /app/ComfyUI
 python main.py --listen 0.0.0.0 --port 8188
+
+# maybe fixed line endings?
